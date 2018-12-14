@@ -3,11 +3,10 @@ Controller Area Network (CAN)
 
 .. -------------------------------- Overview -----------------------------------
 
-Overview
+概述
 --------
 
-The ESP32's peripherals contains a CAN Controller that supports Standard Frame 
-Format (16-bit ID) and Extended Frame Format (29-bit ID) of the CAN2.0B specification.
+ESP32的外设包含一个CAN控制器，该CAN控制器支持CAN2.0B协议的标准帧(11位ID)和扩展帧(29位ID)。
 
 .. warning::
     The ESP32 CAN controller is not compatible with CAN FD frames and will interpret 
